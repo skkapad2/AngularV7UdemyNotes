@@ -28,6 +28,10 @@
 ``` 
 - app.component.ts
 ```typescript
+/**
+* export class AppComponent title can be used 
+
+*/
 import { Component } from '@angular/core';
 
 @Component({

@@ -6,7 +6,7 @@
 <!-- /TOC -->
 # Hello Angular
 - app.component.html
-``` 
+```javascript
 <div style="text-align:center">
   <h1>
     Hi, this is {{ title }}!

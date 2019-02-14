@@ -6,7 +6,8 @@
 <!-- /TOC -->
 # Hello Angular
 - app.component.html
-```<div style="text-align:center">
+``` 
+<div style="text-align:center">
   <h1>
     Hi, this is {{ title }}!
   </h1>
@@ -23,7 +24,9 @@
   <li>
     <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
   </li>
-</ul>```
+</ul>
+``` 
+
 # Test
 # B
 * Filler space here to makesssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss

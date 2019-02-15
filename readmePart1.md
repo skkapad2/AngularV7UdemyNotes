@@ -43,12 +43,21 @@ export class AppComponent {
 }
 ```
 
-# Test
-# B
-* Filler space here to makesssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
-sssssssssss
-sss
-sss
+# The Basics
+Index.hmtl file is served by the server not app.component.html. 
+* Approot tages actually are in the file below and the temlate URL/path is what allows the tag to get the data from.
+```typescript
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-root', //html tag
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+  
+}
+```
 
 
 

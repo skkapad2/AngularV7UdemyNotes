@@ -1,7 +1,7 @@
 # Angular v7 Notes
 <!-- TOC -->
 - [Hello Angular](#hello-angular)
-- [B](#b)
+- [The Basics](#the-basics)
 
 <!-- /TOC -->
 # Hello Angular
@@ -58,6 +58,24 @@ export class AppComponent {
   
 }
 ```
+main.ts gets executed first, and then bootstrap angular application and module as an argument and there is an app component that you should analyze. Finally Angular can handle app root in the index.html  
+
+```typescript
+import { enableProdMode } from '@angular/core';
+import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+
+import { AppModule } from './app/app.module';
+import { environment } from './environments/environment';
+
+if (environment.production) {
+  enableProdMode();
+}
+
+platformBrowserDynamic().bootstrapModule(AppModule)
+  .catch(err => console.error(err));
+  ```
+  
+
 
 
 

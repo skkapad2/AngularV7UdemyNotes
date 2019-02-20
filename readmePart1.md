@@ -77,6 +77,23 @@ platformBrowserDynamic().bootstrapModule(AppModule)
   # Components
   * To create a component : ng generate component servers
     * Ex: servers component. html place tags or whatever you want to write. From there, in the app.component.html you can place selector tags to output things.
+```typescript
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-servers',
+  template: '<app-server></app-server><app-server></app-server>', //switched to template so that can do inline things
+  styleUrls: ['./servers.component.css']
+})
+export class ServersComponent implements OnInit {
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}
+``` 
 
 
 

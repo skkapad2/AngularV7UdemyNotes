@@ -75,7 +75,7 @@ platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
   ```
   # Components
-  To create a component : ng generate component servers
+  * To create a component : ng generate component servers
 
 
 

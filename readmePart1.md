@@ -94,6 +94,8 @@ export class ServersComponent implements OnInit {
 
 }
 ``` 
+# Data Binding
+![notes](images/AngularNotes.PNG)
 
 
 

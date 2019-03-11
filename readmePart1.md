@@ -98,6 +98,7 @@ export class ServersComponent implements OnInit {
 ![notes](images/AngularNotes.PNG)
 
 # Directives
+* # local accessible variable works and this is used for the else in *ngIF
 ```HTML
 <p *ngIf="serverCreated; else noServer">Server was created, server name is {{serverName}} </p> <!-- star is required because its a structural directive. It changes structure of DOM-->
 <ng-template #noServer>

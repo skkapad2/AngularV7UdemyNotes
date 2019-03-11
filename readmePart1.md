@@ -97,5 +97,12 @@ export class ServersComponent implements OnInit {
 # Data Binding
 ![notes](images/AngularNotes.PNG)
 
-
-
+# Directives
+```HTML
+<p *ngIf="serverCreated; else noServer">Server was created, server name is {{serverName}} </p> <!-- star is required because its a structural directive. It changes structure of DOM-->
+<ng-template #noServer>
+    <p>
+    No server was created!
+    </p> <!-- star is required because its a structural directive. It changes structure of DOM-->
+</ng-template>
+```
